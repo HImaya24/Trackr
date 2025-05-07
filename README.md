@@ -1,7 +1,7 @@
 # Trackr - Personal Finance Tracker App 📊💰
-
-![Trackr Logo](app/src/main/res/drawable/logo.png)  <!-- You can add your app's logo here -->
-
+<p align="center">
+  <img src="app/src/main/res/drawable/logo.png" alt="Trackr Logo" width="200"/>  
+</p>
 **Trackr** is a sleek and intuitive personal finance tracker app built using **Kotlin** for Android. Whether you're managing day-to-day expenses, setting up monthly budgets, or analyzing your spending habits, Trackr has everything you need to stay on top of your finances.
 
 ---
