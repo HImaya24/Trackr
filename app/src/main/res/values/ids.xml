@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="budgetTextView" type="id" />
+    <item name="saveSettingsBtn" type="id"/>
+    <item name="currencySpinner" type="id"/>
+</resources>

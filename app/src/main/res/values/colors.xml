@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Background">#1C1C1C</color>
+    <color name="Secondary">#4CAF50</color>
+    <color name="buttons">#2E7D32</color>
+    <color name="expenseIndicator">#FA8072</color>
+    <color name="grey">#1A1A1A</color>
+    <color name ="silver">#C0C0C0</color>
+</resources>
+    <!-- #121212 -bg #91766E-brown, #4C6665-greygreen  #00DFA2 -original clr #3A3A3A - secondary(grey)
+
+    Black – #1C1C1C (soft black)
+
+Brown – #8B5E3C (warm chestnut brown)
+
+Green – #88B04B (olive green) or #A8D5BA (soft mint green)
+-->
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Add a header for Settings -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Settings"
+        android:textColor="@color/Secondary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Notification Toggle -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="268dp"
+            android:layout_height="63dp"
+            android:layout_weight="1"
+            android:text="Enable Notifications"
+            android:textColor="@color/silver"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/notificationSwitch"
+            android:layout_width="123dp"
+            android:layout_height="74dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Existing Buttons -->
+    <Button
+        android:id="@+id/backupBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttons"
+        android:text="Backup Data" />
+
+    <Button
+        android:id="@+id/restoreBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/buttons"
+        android:text="Restore Data" />
+
+
+
+</LinearLayout>

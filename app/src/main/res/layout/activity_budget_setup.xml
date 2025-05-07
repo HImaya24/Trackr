@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/budgetInput"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:hint="Enter Monthly Budget"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/saveBudgetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/buttons"
+        android:text="Save Budget" />
+
+    <Button
+        android:id="@+id/viewBudgetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/Background"
+        android:text="View Budget" />
+
+    <TextView
+        android:id="@+id/backhometext"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_height="56dp"
+        android:text="@string/backhome"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
